@@ -298,8 +298,9 @@ form#dialog .major{
 #prevlinks, #gamelinks {
   padding-top: 5px;
   padding-bottom: 7px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-underline-offset: 1px;
 }
 
 .footlinks a::after {
