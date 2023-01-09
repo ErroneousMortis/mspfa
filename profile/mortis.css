@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Shrikhand&display=swap');
 
 header .mspfalogo {
   background-image: url("https://erroneousmortis.github.io/mspfa/profile/logoedit-mortis.png");
@@ -54,10 +54,33 @@ div.heart {
 }
 
 body {
-  background-color: #03001B;
   color: #605ebf;
   font-family: Comfortaa;
   font-weight: 700;
+  background: url("https://erroneousmortis.github.io/mspfa/profile/mortis-bg.png") no-repeat top center;
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: 2560px;
+  -moz-background-size: 2560px;
+  -o-background-size: 2560px;
+  background-size: 2560px;
+  background-color: #03001B;
+}
+
+#username {
+  font-family: 'Shrikhand', 'Lucida Console', monospace;
+  font-size: 3em;
+  text-transform: uppercase;
+  text-shadow: 0px 5px #19153a;
+}
+
+h2::after {
+  content: " ★";
 }
 
 #main, tbody {
@@ -118,7 +141,7 @@ input.major[type="button"] {
 }
 
 input.major[type="button"]:enabled:active {
-  background-color: #19153a;
+  background-color: #605ebf;
   border-color: #19153a;
 }
 
@@ -136,7 +159,7 @@ div#details a {
 
 ::selection {
   background-color: #77ffc6;
-  color: #77ffc6;
+  color: #175457;
 }
 
 form#dialog {
@@ -151,43 +174,4 @@ form#dialog .major{
 
 #loading {
   filter: brightness(0.75) saturate(0) contrast(1) grayscale(0%) sepia(100%) hue-rotate(90deg);
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Shrikhand&display=swap');
-
-#username {
-  font-family: 'Shrikhand', 'Lucida Console', monospace;
-  font-size: 3em;
-  text-transform: uppercase;
-  text-shadow: 0px 5px #19153a;
-}
-
-h2::after {
-  content: " ★";
-}
-
-input.major[type="button"]:enabled:active {
-  background-color: #605ebf;
-  border-color: #19153a;
-}
-
-::selection {
-  background-color: #77ffc6;
-  color: #175457;
-}
-
-body {
-  background: url("") no-repeat top center;
-  content: "";
-  display: block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-background-size: 2560px;
-  -moz-background-size: 2560px;
-  -o-background-size: 2560px;
-  background-size: 2560px;
-  background-color: #03001B;
 }
