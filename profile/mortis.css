@@ -38,19 +38,25 @@ footer .mspfalogo {
 
 nav {
   background-color: #333272;
+  padding-bottom: 6px;
 }
 
-nav a[href="/"], nav a[href="/stories/"], nav a[href="/stats/"], nav a[href="https://discord.gg/EC5acgG"], nav a[href="/donate/"] {
+nav a[href="/"], nav a[href="/stories/"], nav a[href="/stats/"], nav a[href="/discord"], nav a[href="/more/"] {
   color: #79bd9a !important;
+  text-decoration: none;
+  padding-top: 2px;
 }
 
-nav a[href="http://www.mspaintadventures.com/"], nav a[href="/random/"], nav a[href="/my/"], nav a[href="/more/"] {
+nav a[href="http://www.mspaintadventures.com/"], nav a[href="/random/"], nav a[href="/my/"], nav a[href="/donate/"] {
   color: #dcffe6 !important;
+  text-decoration: none;
+  padding-top: 2px;
 }
 
 
 div.heart {
   background-image: url("https://erroneousmortis.github.io/mspfa/profile/mortis-star.png");
+  margin-top: 1px;
 }
 
 body {
