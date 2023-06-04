@@ -15,6 +15,7 @@ footer .mspfalogo {
 .um {
   opacity: 0.5;
   transition: opacity 0.1s ease-out;
+    filter: brightness(0.75) saturate(0) contrast(1) grayscale(0%) sepia(100%) hue-rotate(90deg);
 }
 
 .um:hover {
@@ -53,7 +54,6 @@ nav a[href="http://www.mspaintadventures.com/"], nav a[href="/random/"], nav a[h
   padding-top: 2px;
 }
 
-
 div.heart {
   background-image: url("https://erroneousmortis.github.io/mspfa/profile/mortis-star.png");
   margin-top: 1px;
@@ -87,6 +87,7 @@ body {
 
 h2::after {
   content: " ★";
+  font-style: italic;
 }
 
 #main, tbody {
